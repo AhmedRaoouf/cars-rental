@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="../../assest/icons/favicon.png"
+      type="image/png"
+    />
+
+    <link rel="stylesheet" href="../../../dist/output.css" />
+    <link rel="stylesheet" href="../../normalize.css" />
+    <link rel="stylesheet" href="../../assest/icons/all.min.css" />
+    <link rel="stylesheet" href="../../input.css" />
+
+    <title>FDEC</title>
+  </head>
+  <body class="bg-main-gray">
+    <main class="flex flex-col items-center">
+      <div class="container py-12 px-6">
+        <nav class="flex justify-between items-center">
+          <!--          <p class="text-main-dark font-semibold text-4xl"><span class="pl-2 bg-main-amber inline rounded-md">Ab</span>out</p>-->
+          <p
+            class="text-main-dark font-semibold text-4xl relative sm:hidden before:content-[''] before:bg-sub-amber before:absolute before:w-11 pl-2 before:h-full before:rounded-md before:-z-[1] before:left-0"
+          >
+            Gallery
+          </p>
+          <!--      <div class="w-8 hidden sm:block"></div>-->
+          <ul class="hidden sm:block">
+            <li
+              class="flex sm:gap-6 md:gap-12 text-main-dark child:font-semibold child:transition child:duration-300 child-hover:text-main-amber lg:text-2xl"
+            >
+              <a href="../home/homeEn.html">Home</a>
+              <a href="../about/about.html">About Us</a>
+              <a href="../services/services.html">Services</a>
+              <a href="gallery.html" class="text-main-amber">Gallery</a>
+              <a href="../contact/contact.html">Contact</a>
+            </li>
+          </ul>
+          <a
+            class="hidden sm:block p-2 bg-main-amber/25 hover:bg-main-amber text-white text-center cursor-pointer rounded-sm transition duration-300"
+            href="galleryAr.html"
+          >
+            العربية
+          </a>
+          <div
+            class="flex flex-col gap-1 sm:hidden cursor-pointer child:bg-main-dark child:w-8 child:h-1 child:rounded-full child:block child:transition child:duration-500 z-30"
+            data-menu-button
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div
+            class="hidden sm:hidden bg-main-dark fixed top-0 left-full w-screen h-screen transition-all duration-500 z-20 py-8 px-6"
+            data-menu
+          >
+            <a href=""
+              ><img
+                src="../../assest/images/logo/logo.png"
+                alt="FDEX Logo"
+                srcset=""
+                class="w-28 brightness-200 fill-black"
+            /></a>
+            <ul>
+              <li
+                class="flex flex-col gap-6 text-white child:font-semibold child:transition child:duration-300 text-2xl child-hover:text-sub-amber mt-16"
+              >
+                <a href="../home/homeEn.html">Home</a>
+                <a href="../about/about.html">About Us</a>
+                <a href="../services/services.html">Services</a>
+                <a href="gallery.html" class="text-main-amber">Gallery</a>
+                <a href="../contact/contact.html">Contact</a>
+              </li>
+            </ul>
+            <hr class="border-white/25 rounded-full my-16" />
+            <a
+              class="p-2 bg-sub-amber text-main-dark font-bold text-center cursor-pointer rounded-md"
+              href="galleryAr.html"
+            >
+              العربية
+            </a>
+            <p
+              class="absolute text-white/50 -translate-x-1/2 left-1/2 bottom-6"
+            >
+              All Rights Reserved © 2023
+            </p>
+          </div>
+        </nav>
+        <section class="sm:pt-12">
+          <p
+            class="text-main-dark hidden sm:block font-semibold text-4xl md:text-6xl xl:text-7xl relative before:content-[''] before:bg-sub-amber before:absolute before:w-11 md:before:w-16 xl:before:w-20 pl-2 before:h-full before:rounded-md before:-z-[1] before:left-0"
+          >
+            Gallery
+          </p>
+          <article class="mt-12 sm:flex gap-2">
+            <div
+              class="grid-cols-3 p4 space-y-2 lg:space-y-0 lg:grid lg:gap-3 lg:grid-rows-3 child:w-full child:child:rounded-md child:child:h-full child:child:object-cover"
+            >
+              <div class="col-span-2 row-span-2">
+                <img src="../../assest/images/gallery/i1.jpeg" alt="image" />
+              </div>
+              <div>
+                <img src="../../assest/images/gallery/i2.jpeg" alt="image" />
+              </div>
+              <div>
+                <img src="../../assest/images/gallery/i3.jpeg" alt="image" />
+              </div>
+              <div>
+                <img src="../../assest/images/gallery/i4.jpeg" alt="image" />
+              </div>
+              <div>
+                <img src="../../assest/images/gallery/i5.jpeg" alt="image" />
+              </div>
+              <div>
+                <img src="../../assest/images/gallery/i5.jpeg" alt="image" />
+              </div>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <footer class="bg-main-dark w-full mt-12 flex flex-col items-center">
+      <div
+        class="container flex flex-col sm:items-start gap-8 lg:gap-12 items-center px-4 sm:px-0 py-12 text-center"
+      >
+        <div
+          class="flex flex-col sm:flex-row sm:gap-4 items-center text-main-gray"
+        >
+          <img
+            src="../../assest/images/logo/logoW.png"
+            alt="FDEC Logo"
+            srcset=""
+            class="w-12"
+          />
+          <div class="sm:text-start">
+            <p class="text-2xl font-medium">First Dimension</p>
+            <span class="block text-xs"
+              >The first dimension for engineering consultancy</span
+            >
+          </div>
+        </div>
+        <div
+          class="w-full flex flex-col sm:flex-row justify-between gap-10 sm:gap-0"
+        >
+          <div
+            class="flex flex-col gap-2 sm:text-start sm:hidden child:block child:text-white/50"
+          >
+            <a
+              href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=fdec.jeddah@gmail.com"
+              target="_blank"
+              >fdec.jeddah@gmail.com</a
+            >
+            <a
+              href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=ARC.DESIGN@FDEC.COM"
+              target="_blank"
+              >ARC.DESIGN@FDEC.COM</a
+            >
+            <a
+              href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=SAFETY@FDEC.COM"
+              target="_blank"
+              >SAFETY@FDEC.COM</a
+            >
+            <a
+              href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=INFO@FDEC.COM"
+              target="_blank"
+              >INFO@FDEC.COM</a
+            >
+          </div>
+          <div class="sm:text-start text-white">
+            <p class="text-xl mb-4 font-semibold">First Dimension</p>
+            <ul>
+              <li
+                class="flex flex-col gap-3 child:transition child:duration-300 text-md child-hover:text-sub-amber"
+              >
+                <a href="../home/homeEn.html">Home</a>
+                <a href="../about/about.html">About Us</a>
+                <a href="../services/services.html">Services</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="../contact/contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="sm:text-start text-white">
+            <p class="text-xl mb-4 font-semibold">Services</p>
+            <ul>
+              <li
+                class="flex flex-col gap-3 child:transition child:duration-300 text-md child-hover:text-sub-amber"
+              >
+                <a href="../services/services.html">Civil Defense</a>
+                <a href="../services/services.html"
+                  >Secretariat and municipalities</a
+                >
+                <a href="../services/services.html">Architectural Design</a>
+                <a href="../services/services.html">Engineering Designs</a>
+              </li>
+            </ul>
+          </div>
+          <div class="hidden sm:block sm:text-start text-white">
+            <p class="text-white text-xl mb-4 font-semibold">Get in touch</p>
+            <ul>
+              <li
+                class="flex flex-col gap-3 child:transition child:duration-300 text-md child-hover:text-sub-amber"
+              >
+                <a
+                  href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=ARC.DESIGN@FDEC.COM"
+                  target="_blank"
+                  >ARC.DESIGN@FDEC.COM</a
+                >
+                <a
+                  href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=SAFETY@FDEC.COM"
+                  target="_blank"
+                  >SAFETY@FDEC.COM</a
+                >
+                <a
+                  href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=INFO@FDEC.COM"
+                  target="_blank"
+                  >INFO@FDEC.COM</a
+                >
+              </li>
+            </ul>
+            <p class="hidden text-white/50">fdec.jeddah@gmail.com</p>
+          </div>
+          <form class="sm:text-start">
+            <p class="hidden sm:block text-white text-xl mb-4 font-semibold">
+              Follow the latest offers first
+            </p>
+            <div class="flex sm:text-start">
+              <div class="relative z-0 w-full group">
+                <input
+                  type="email"
+                  name="floating_email"
+                  id="footer_email"
+                  class="block py-2.5 sm:py-4 px-3 rounded-l-md w-full text-sm text-main-dark bg-white appearance-none focus:outline-none focus:ring-0 peer"
+                  placeholder=" "
+                  required
+                />
+                <label
+                  for="footer_email"
+                  class="peer-focus:font-medium absolute text-sm text-gray-500 duration-300 transform -translate-y-3 scale-75 top-3 left-3 z-10 peer-focus:left-0 peer-focus:text-main-dark peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-3"
+                  >Email address</label
+                >
+              </div>
+              <button
+                type="submit"
+                class="text-white bg-main-amber hover:bg-amber-800 font-medium rounded-r-md text-sm sm:w-auto py-2.5 px-2 sm:py-4 text-center transition duration-300"
+              >
+                Subscribe
+              </button>
+            </div>
+          </form>
+        </div>
+        <span class="text-white/50 sm:self-center"
+          >Created by
+          <a href="https://athr.company" class="text-main-amber" target="_blank"
+            >Athr</a
+          ><br class="sm:hidden" /><span class="hidden sm:inline-block px-1"
+            >●</span
+          >All Rights Reserved © 2023</span
+        >
+      </div>
+    </footer>
+    <script src="gallery.js"></script>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: 'Tajawal', sans-serif;}
+
+/*main{*/
+/*  background-image: url("./assest/images/home.jpg");*/
+/*}*/

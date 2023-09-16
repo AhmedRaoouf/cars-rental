@@ -1,0 +1,10 @@
+.twxt:hover,
+.text2:hover,
+.text3:hover {
+    color: #fff;
+    background: #ff0000;
+}
+
+.cntent {
+    margin-right: 500px;
+}
